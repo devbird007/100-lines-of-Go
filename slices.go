@@ -25,7 +25,7 @@ func main() {
 	// -- snip -- //
 	allLangs := languages[:]                     // copy of the array
 	fmt.Println(reflect.TypeOf(allLangs).Kind()) // slice
-	fmt.Println("%v\n", allLangs)
+	fmt.Printf("%v\n", allLangs)
 
 	/* Create a slice containing web frameworks */
 	frameworks := []string{
